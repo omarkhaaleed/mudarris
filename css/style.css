@@ -1,0 +1,522 @@
+/* jeneral classes*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*start navbar */
+
+nav {
+    padding-top: 50px !important;
+}
+
+.sticky {
+    background-color: #0090ff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+ul li .active {
+    color: #0090ff !important;
+}
+
+.nav-item .nav-link {
+    font-size: 21px;
+    padding-right: 45px !important;
+    text-decoration: none;
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+}
+
+nav a:hover {
+    color: #0090ff !important;
+}
+
+nav form button {
+    background: #0090ff;
+    border: none;
+    width: 130px;
+    height: 36px;
+    border-radius: 26px !important;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    -webkit-border-radius: 26px !important;
+    -moz-border-radius: 26px !important;
+    -ms-border-radius: 26px !important;
+    -o-border-radius: 26px !important;
+    margin-left: 55px;
+}
+
+nav form a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 41px;
+}
+
+
+/*     
+    nav h6 {
+        margin-left: 35px;
+        color: #0090ff;
+        cursor: pointer;
+        margin-top: 71px;
+        font-size: 20px;
+    } */
+
+
+/* .nav_background {
+        background-color: #2d2d2d;
+        display: none;
+    } */
+
+@media(max-width:575px) {
+    nav form button {
+        margin-left: 0;
+    }
+    nav ul {
+        margin-top: 25px;
+    }
+    nav form a {
+        margin-left: 21px;
+    }
+}
+
+
+/* start private teacher*/
+
+.privet_teacher {
+    padding-top: 80px;
+}
+
+.privet_teacher .private_info {
+    padding-top: 30px;
+}
+
+.privet_teacher .private_tittle {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0090ff;
+}
+
+.privet_teacher .private_desc {
+    width: 76%;
+    padding: 20px 0;
+    color: #161616;
+}
+
+.privet_teacher button {
+    background: #0090ff;
+    border: none;
+    width: 111px;
+    height: 33px;
+    border-radius: 26px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    -webkit-border-radius: 26px;
+}
+
+.privet_teacher .private_img img {
+    width: 89%;
+}
+
+
+/* end private teacher*/
+
+
+/* start teacher rate*/
+
+.teacher_rate {
+    background-color: #0090ff;
+    margin: 80px 0;
+    height: 400px;
+}
+
+.teacher_rate h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.teacher_rate .teacher_info {
+    background-color: #fff;
+    width: 80%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    margin-left: 40px;
+}
+
+.teacher_info img {
+    width: 31% !important;
+    display: inline-block !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 11px;
+    position: absolute;
+    top: -30px;
+    left: 14px;
+}
+
+.teacher_info .teacher_social {
+    margin-left: 70px;
+}
+
+.teacher_info i {
+    color: rgb(234, 250, 7);
+    margin-right: 6px;
+}
+
+.teacher_info span {
+    display: block;
+    margin-bottom: 26px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.teacher_info h4 {
+    text-align: center;
+    color: #000;
+}
+
+.teacher_info p {
+    color: #bababa;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media(max-width:575px) {
+    .teacher_rate .teacher_info {
+        margin-left: 115px;
+    }
+    .teacher_rate .teacher_info {
+        width: 56%;
+    }
+    .privet_teacher .private_img {
+        margin-top: 20px;
+    }
+}
+
+
+/* end teacher rate*/
+
+
+/* start promotio */
+
+.promotion .promotion_tittle {
+    font-size: 40px;
+    color: #0090ff;
+}
+
+.promotion .promotion_info {
+    background-color: #0090ff;
+    color: #fff;
+    width: 67%;
+    display: block;
+    height: 145px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
+.promotion .promotion_all_content {
+    width: 100%;
+    margin-left: 60px;
+}
+
+.promotion_info .promotion_info_tittle {
+    padding: 30px 0 5px 0;
+}
+
+.promotion_info .promotion_price {
+    font-size: 30px;
+}
+
+.promotion .promotion_subject {
+    background-color: #f8f8f8;
+    width: 67%;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.promotion_subject .promotion_subject_desc {
+    font-weight: 700;
+    color: #000;
+    padding-top: 20px;
+    width: 90%;
+    padding-bottom: 15px;
+}
+
+.promotion_subject .promotion_subject_bord {
+    border-bottom: 9px solid #fff;
+    width: 250px;
+    display: block;
+}
+
+.promotion_subject span {
+    color: #7f7f7f;
+}
+
+
+/* end  promotio */
+
+
+/* start  why us  */
+
+.why_us {
+    margin: 80px 0;
+    background-color: #0090ff;
+    height: 400px;
+    color: #fff;
+}
+
+.why_us .why_us_tittle {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.why_us i {
+    font-size: 50px;
+    padding: 40px 0;
+}
+
+.why_us .why_tittle {
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.why_us .why_desc {
+    color: #cce9ff;
+}
+
+@media(max-width:757px) {
+    .why_us {
+        height: 1000px;
+    }
+}
+
+
+/* end  why us  */
+
+
+/* start our success */
+
+.our_success {
+    margin: 80px 0;
+    color: #fff;
+}
+
+.our_success .box_success {
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 2px 15px 1px #ddd;
+}
+
+.box_success .container_image {
+    padding-top: 62px;
+}
+
+.box_success h3 {
+    font-size: 35px;
+    color: #0090ff;
+    padding-top: 10px;
+}
+
+.box_success span {
+    font-size: 40px;
+    color: #000;
+    /* margin: 0; */
+    padding-bottom: -18px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+@media(max-width:1000px) {
+    .our_success .box_success {
+        margin-bottom: 13px;
+    }
+}
+
+
+/*end our seccsess*/
+
+
+/* start register*/
+
+.book_now {
+    background-image: url(../img/register/Vector\ Smart\ Object\ img.png);
+    background-position: center;
+    background-size: cover;
+    height: 510px;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.book_now .book_now_tittle {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.book_now .book_now_desc {
+    padding: 15px 0;
+    width: 60%;
+}
+
+.book_now input {
+    border: none;
+    width: 265px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.book_now button {
+    border: none;
+    background: #000;
+    width: 130px;
+    height: 36px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.book_now img {
+    padding-top: 2px;
+    width: 36%;
+}
+
+@media(max-width:575px) {
+    .book_now {
+        height: 790px;
+    }
+    .book_now .book_now_tittle {
+        padding-top: 77px;
+    }
+    .book_now img {
+        padding-top: 2px;
+    }
+}
+
+
+/* end register*/
+
+
+/* start footer*/
+
+footer {
+    margin-top: 35px;
+}
+
+footer ul {
+    display: inline-block;
+    padding-top: 45px;
+    margin-left: 35px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: .5s all ease-in-out;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+}
+
+@media(max-width:575px) {
+    footer {
+        text-align: center;
+    }
+}
+
+@media(max-width:790px) {
+    footer {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .book_now {
+        height: 800px;
+    }
+    .book_now img {
+        padding-top: 5px;
+    }
+}
+
+
+/* end footer*/
+
+.all-border_bottom {
+    height: 2px;
+    background: #f00;
+}
+
+
+/* secend footer*/
+
+.social i {
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #0090ff;
+}
+
+.social .social_tittle {
+    padding-top: 10px;
+    color: #0090ff;
+}
+
+.social ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social ul li {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.social ul li>.active {
+    color: #0090ff;
+}
+
+@media(max-width:799px) {
+    .social {
+        text-align: center;
+    }
+}
